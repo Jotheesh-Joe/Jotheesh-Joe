@@ -3,7 +3,12 @@ title: tools
 layout: tools-layout
 ---
 
-{% for tools in site.tools %}
-  <h2>{{tools.title}}</h2>
-  {{tools.content | markdownify}}
-{% endfor %}
+<h1>Tools</h1>
+<ul>
+  {% for tools in site.tools %}
+    <li>
+      {{tools.title}}
+    </li>
+  (% endfor %}
+</ul>
+  

@@ -1,5 +1,6 @@
 ---
-title: promethues
+title: prometheus
+layout: tools-layout
 ---
 
 DATA MODEL

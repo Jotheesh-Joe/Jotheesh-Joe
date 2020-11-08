@@ -1,0 +1,9 @@
+---
+title: tools
+layout: default
+---
+
+{% for tools in site.tools %}
+  <h2>{{tools.title}}</h2>
+  {{tools.content | markdownify}}
+{% endfor %}

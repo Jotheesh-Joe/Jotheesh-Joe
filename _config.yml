@@ -1,2 +1,7 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
+
+collections:
+  Tools:
+  output: true
+  permalink: /tools/:path/
